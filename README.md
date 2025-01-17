@@ -1,0 +1,1 @@
+# nuxt-full-stack-boilerplate-template
