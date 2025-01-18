@@ -1,14 +1,7 @@
-import { createConfigForNuxt } from '@nuxt/eslint-config/flat'
+import withNuxt from './.nuxt/eslint.config.mjs'
 
-export default createConfigForNuxt({
-  // options here
-})
-.prepend(
+export default withNuxt(
+  // ...Custom flat configs append after nuxt's configs
+).prepend(
   // ...Prepend some flat configs in front
 )
-.override('nuxt/typescript', {
-  rules: {
-    // ...Override rules, for example:
-
-  }
-})

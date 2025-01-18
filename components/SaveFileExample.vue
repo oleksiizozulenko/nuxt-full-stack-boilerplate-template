@@ -1,6 +1,8 @@
 <template>
 	<input type="file" @input="handleFileInput" />
     <button @click="submit">submit</button>
+
+	<span> {{ response  }}</span>
 </template>
 
 <script setup>
@@ -15,5 +17,6 @@
 			files: files.value
 		}
 	})
+	console.log(response)
 }
 </script>

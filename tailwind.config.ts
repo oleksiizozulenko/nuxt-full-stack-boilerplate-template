@@ -10,4 +10,5 @@ export default <Partial<Config>>{
       },
     },
   },
+  plugins: [aspectRatio],
 };

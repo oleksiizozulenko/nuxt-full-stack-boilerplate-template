@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import type { NuxtError } from '#app'
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const props = defineProps({
     error: Object as () => NuxtError
 })

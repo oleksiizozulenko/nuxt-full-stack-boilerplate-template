@@ -10,17 +10,15 @@
     "postinstall": "nuxt prepare",
     "lint": "npx eslint .",
     "lint:fix": "npx eslint . --fix",
-     "db:generate": "drizzle-kit generate"
+    "db:generate": "drizzle-kit generate"
   },
   "dependencies": {
     "@libsql/client": "^0.14.0",
     "@nuxt/content": "^3.0.0",
-    "@nuxt/eslint": "^0.7.5",
     "@nuxt/fonts": "^0.10.3",
     "@nuxt/icon": "^1.10.3",
     "@nuxtjs/color-mode": "^3.5.2",
     "@nuxtjs/i18n": "^9.1.1",
-    "@nuxtjs/ngrok": "^3.0.1",
     "@nuxtjs/seo": "^2.0.3",
     "@nuxtjs/tailwindcss": "^6.13.1",
     "@pinia/nuxt": "^0.9.0",
@@ -35,12 +33,14 @@
     "nuxt-security": "^2.1.5",
     "nuxt-time": "^1.0.3",
     "pinia": "^2.3.0",
-    "prettier": "^3.4.2",
+ 
     "vue": "latest",
     "vue-router": "latest"
   },
   "devDependencies": {
-    "@nuxt/eslint-config": "^0.7.5",
+    "@nuxt/eslint": "^0.7.5",
+    "@nuxtjs/ngrok": "^3.0.1",
+    "prettier": "^3.4.2",
     "drizzle-kit": "^0.30.2",
     "eslint": "^9.18.0",
     "nuxt-file-storage": "^0.2.9",

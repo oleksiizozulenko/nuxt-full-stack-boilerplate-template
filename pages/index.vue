@@ -7,7 +7,7 @@ const { data: home } = await useAsyncData(() => queryCollection('docs').path('/'
 
 const store = userStore()
 
-const colorMode = useColorMode()
+useColorMode()
 const { setLocale } = useI18n()
 
 </script>
