@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "*.css": "tailwindcss"
+    },
+
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+
+    "editor.gotoLocation.multipleDefinitions": "goto",
+
+    "eslint.useFlatConfig": true
+}

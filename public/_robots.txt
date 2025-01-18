@@ -1,0 +1,10 @@
+
+User-agent: *
+Disallow: /admin/
+Disallow: /login/
+Disallow: /register/
+
+User-agent: Googlebot
+Allow: /
+
+Sitemap: https://yourwebsite.com/sitemap.xml
